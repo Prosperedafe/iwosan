@@ -1,0 +1,167 @@
+h2 {
+    color: hsl(217, 73%, 12%);
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.about__header {
+    position: relative;
+    padding-bottom: 5rem;
+    background: hsl(217deg, 73%, 12%);
+}
+
+.about__nav {
+    position: fixed;
+    top: 0;
+    background: hsl(217deg, 73%, 12%);
+    width: 100%;
+    padding: 1rem clamp(2rem, 7vw, 8rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.hero {
+    background: hsl(217deg, 73%, 12%);
+    padding: 6rem clamp(2rem, 7vw, 8rem);
+    color: white;
+    text-align: center;
+    margin-bottom: 25%;
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 5vw, 3.5rem);
+    margin: 1rem auto;
+}
+
+.hero img {
+    width: 100%;
+    margin: 4rem 0 -24% 0;
+}
+
+.expertise {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding: 0 clamp(2rem, 7vw, 8rem) 2rem 0;
+}
+
+.expertise p {
+    margin-bottom: 4rem;
+}
+
+.expertise > div{
+    margin-left: 2rem;
+}
+
+.expertise div,
+.expertise .woman {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.expertise div:first-child {
+    margin-left: clamp(2rem, 7vw, 8rem);
+}
+
+.expertise .woman {
+    width: 50%;
+    object-fit: contain;
+}
+
+.join-us {
+    text-align: center;
+    background: hsl(217, 73%, 12%);
+    color: white;
+    padding: 2rem clamp(2rem, 7vw, 8rem);
+}
+
+.join-us h2 {
+    color: white;
+    margin: 1rem 0;
+}
+
+.email {
+    padding: 0.8rem;
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 1rem auto;
+}
+
+.email button,
+.email input {
+    font-size: 1rem;
+    font-family: "Work Sans";
+    border: none;
+    height: fit-content;
+    background: transparent;
+    height: fit-content;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.email button {
+    border-left: 1px solid hsl(217, 73%, 12%, 0.5);
+    color: hsl(166, 99%, 41%);
+    cursor: pointer;
+}
+
+.doctor,
+.finance,
+.leadership {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding: 3rem clamp(2rem, 7vw, 8rem) 4rem 0;
+}
+
+.doctor-img,
+.doctor>div,
+.finance>div,
+.finance>img,
+.leadership>div {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.doctor-img,
+.finance>img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.doctor p,
+.finance p,
+.leadership p {
+    opacity: 0.9;
+    margin: 1rem 0;
+}
+
+.doctor>div {
+    margin-left: 2rem;
+}
+
+.finance {
+    color: white;
+    background: hsla(191, 100%, 43%, 1);
+    padding: 1rem 0 1rem clamp(2rem, 7vw, 8rem);
+}
+
+.finance>div {
+    margin: 2rem 0;
+}
+
+.finance h2 {
+    color: white;
+}
+
+.leadership {
+    padding: 4rem clamp(2rem, 7vw, 8rem);
+    align-items: center;
+}
+
+.testimony h2 {
+    color: white;
+}
